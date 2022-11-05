@@ -253,7 +253,7 @@ td, th {
 
 @media screen and (max-width: 480px) {
 
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
         width: auto;
     }
 
@@ -283,5 +283,39 @@ td, th {
     .video {
         width: 100%;
         height: 200px;
+    }
+
+    .produtos li {
+        display: block;
+        text-align: center;
+        width: 97%;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .lista-nav {
+        position: static;
+    }
+
+    form {
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    form label {
+        padding: 10px 10px;
+    }
+
+    .input-padrao {
+        margin: 0 auto;
+        padding: 10px 54px;
+    }
+
+    table {
+        margin: 0 auto;
     }
 }
